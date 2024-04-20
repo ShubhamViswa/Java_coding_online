@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0;  i <= 1; i++ ){
+            System.out.println("i = " + i);
+        }
+        
+        System.out.println("--------------------------------------------------");
+
+        System.out.println("Continue ---> Skips the code. And Break ---> Stops the code. ");
+        
+        System.out.println("--------------------------------------------------");
+        
+        System.out.println("--------------------------------------------------");
+        System.out.println("==> Let's Learn About While loop ");
+        int number = 0; 
+        while(number < 10){
+            number++; 
+            System.out.println(number);
+        }
+        System.out.println("===> While loop will execute until the condition is true  ");
+        
+        
+        System.out.println("--------------------------------------------------");
+        System.out.println("In do while loop at least once  the code will be execute ");
+        int number1 = 0;
+        do{
+           System.out.println(number1);
+        }while(number1>=1);
+ 
+    }
+}  
+
