@@ -24,5 +24,12 @@ public class Main {
         long myNumber  =  21474836478L; 
         
         System.out.println("Long min is " + myNumber); 
+
+        short maxshortValue = Short.MAX_VALUE; // 32767
+        short minshortValue = Short.MIN_VALUE; // -32768
+        
+        System.out.println("Short max is " + maxshortValue);
+        System.out.println("Short min is " + minshortValue);    
+        
     }
 }
