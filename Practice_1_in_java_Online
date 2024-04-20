@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        String Name = "Shubham";
+        int age = 19;
+        System.out.println("Hello " + Name +" Your age is " + age);
+        int max = Integer.MAX_VALUE;
+        int min = Integer.MIN_VALUE;
+        // System.out.println("max");
+        System.out.println(min);    
+        System.out.println(max);
+
+
+        
+    }
+}
