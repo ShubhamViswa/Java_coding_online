@@ -1,0 +1,46 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        int nums1 = 11;
+        int nums2 = 4;
+        System.out.println(nums1 + nums2);  // Addition
+        System.out.println(nums1 - nums2);  // Subtraction
+        System.out.println(nums1 * nums2);  // Multiply 
+        System.out.println(nums1 / nums2); // Divide 
+        System.out.println(nums1 % nums2); // Remainder Value 
+        System.out.println(nums1 + nums2 * 4);  // First Multiply and then add
+        System.out.println((nums1 + nums2) * 4);  // First Add and then Multiply 
+        
+         
+        System.out.println("-------------------------------");
+
+        int myNumber = 0;
+        myNumber += 1; 
+        System.out.println(myNumber);  // 1
+        
+        myNumber -= 1; 
+        System.out.println(myNumber); // 1-1 = 0
+        
+        myNumber *= 1; 
+        System.out.println(myNumber); // 0*1 = 0
+
+        myNumber /= 1;
+        System.out.println(myNumber); // 0/1 = 0
+
+        myNumber %= 1; 
+        System.out.println(myNumber);  // 0 % 0 = 0
+        
+        System.out.println("-------------------------------");
+
+        myNumber = 8; 
+        System.out.println("Prefix Incrementation = " + ++myNumber);  
+        // Output = 9
+        System.out.println("Prefix Decrementation = " + --myNumber);  
+        //0utput = 9-1 = 8
+        
+        myNumber = 8; 
+        System.out.println("Prefix Decrementation = " + --myNumber);  
+        System.out.println("Postfix Decrementation = " + myNumber--);  
+
+    }
+}
