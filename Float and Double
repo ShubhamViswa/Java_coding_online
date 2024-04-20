@@ -1,0 +1,42 @@
+Difference Between Float and Double in Java Programming Language. 
+
+1. **float**:
+   - `float` is a 32-bit single-precision floating-point type in Java.
+   - It is used to store decimal numbers with single precision, meaning it can represent values with a smaller range and less precision compared to `double`.
+   - The range of values that can be represented by a `float` is approximately ±3.40282347 x 10^38, with 7 decimal digits of precision.
+   - To declare a `float` variable, you suffix the number with an 'f' or 'F':
+     ```java
+     float floatValue = 3.14f;
+     ```
+
+2. **double**:
+   - `double` is a 64-bit double-precision floating-point type in Java.
+   - It is used to store decimal numbers with double precision, meaning it can represent a wider range of values and provide greater precision compared to `float`.
+   - The range of values that can be represented by a `double` is approximately ±1.7976931348623157 x 10^308, with 15 decimal digits of precision.
+   - `double` is the default choice for representing decimal numbers in Java because of its higher precision.
+   - To declare a `double` variable, you can simply write the number without any suffix:
+     ```java
+     double doubleValue = 3.14;
+     ```
+
+Here's a simple comparison to illustrate the difference between `float` and `double`:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        float floatValue = 3.141592653589793238f;
+        double doubleValue = 3.141592653589793238;
+
+        System.out.println("Float Value: " + floatValue);
+        System.out.println("Double Value: " + doubleValue);
+    }
+}
+```
+
+Output:
+```
+Float Value: 3.1415927
+Double Value: 3.141592653589793
+```
+
+As you can see, the `float` value is rounded to 7 decimal places, while the `double` value retains more precision with 15 decimal places. In general, you should use `double` unless you have a specific need for `float`, such as conserving memory in large arrays of floating-point numbers.
