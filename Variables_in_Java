@@ -29,7 +29,29 @@ public class Main {
         short minshortValue = Short.MIN_VALUE; // -32768
         
         System.out.println("Short max is " + maxshortValue);
-        System.out.println("Short min is " + minshortValue);    
+        System.out.println("Short min is " + minshortValue);   
+        
+public class Main {
+    public static void main(String[] args) {
+        
+        float maxFloatValue = Float.MAX_VALUE; // 3.4028235E38
+        float minFloatValue = Float.MIN_VALUE; // 1.4E-45
+        
+        System.out.println("Maximum Float Number is " + maxFloatValue);
+        System.out.println("Minimum Float Number is " + minFloatValue);    
+        
+        double maxDoubleValue = Double.MAX_VALUE; // 1.7976931348623157E308
+        double minDoubleValue = Double.MIN_VALUE; // 4.9E-324
+        
+        System.out.println("Maximum Double Number is " + maxDoubleValue);
+        System.out.println("Minimum Double Number is " + minDoubleValue);
+        
+        char letter = 'A';
+        boolean is_Active = true;
+        System.out.println(letter);
+        System.out.println(is_Active);
+    }
+}
         
     }
 }
